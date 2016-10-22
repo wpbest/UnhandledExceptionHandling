@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UnhandledExceptionHandling"
+             x:Class="UnhandledExceptionHandling.MainPage">
+  <StackLayout>
+    <StackLayout.Children>
+      <Button Text="Throw Exception!"
+          HorizontalOptions="Center"
+          VerticalOptions="CenterAndExpand"
+          Clicked="OnButtonClicked" />
+    </StackLayout.Children>
+  </StackLayout>
+
+</ContentPage>
